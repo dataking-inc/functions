@@ -1,6 +1,6 @@
 {
   "name": "functions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A helper functions packages for our project to use internally. Packages are not supposed to be update regularly, but we try our best to run tests as much as possible.",
   "main": "source/index.js",
   "unpkg": "dist/dkjs.js",
