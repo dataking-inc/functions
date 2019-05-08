@@ -1,9 +1,12 @@
 {
-  "name": "functions",
+  "name": "@dataking/functions",
   "version": "0.0.1",
   "description": "A helper functions packages for our project to use internally. Packages are not supposed to be update regularly, but we try our best to run tests as much as possible.",
-  "main": "source/index.js",
+  "main": "src/index.js",
   "unpkg": "dist/dkjs.js",
+  "files": [
+    "dist/dkjs.js"
+  ],
   "contributors": [
     {
       "name": "Wing Him Liu",
