@@ -1,0 +1,54 @@
+{
+  "name": "functions",
+  "version": "0.0.0",
+  "description": "A helper functions packages for our project to use internally. Packages are not supposed to be update regularly, but we try our best to run tests as much as possible.",
+  "main": "source/index.js",
+  "unpkg": "dist/dkjs.js",
+  "contributors": [
+    {
+      "name": "Wing Him Liu",
+      "email": "winghim@dataking.co.kr",
+      "web": "http://dataking.co.kr"
+    }
+  ],
+  "scripts": {
+    "build": "npm run production",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && node bin/build-docs.js",
+    "test": "jest",
+    "watch": "npm run development -- --watch --watch-poll",
+    "watch-poll": "npm run watch -- --watch-poll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dataking-inc/functions.git"
+  },
+  "keywords": [
+    "fp",
+    "ramda",
+    "utils"
+  ],
+  "author": "winghim@dataking.co.kr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dataking-inc/functions/issues"
+  },
+  "homepage": "https://github.com/dataking-inc/functions#readme",
+  "peerDependencies": {
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "jest": "^24.7.1",
+    "laravel-mix": "^4.0.15",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
+}
