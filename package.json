@@ -1,6 +1,6 @@
 {
   "name": "@dataking/functions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A helper functions packages for our project to use internally. Packages are not supposed to be update regularly, but we try our best to run tests as much as possible.",
   "main": "src/index.js",
   "unpkg": "dist/dkjs.js",
