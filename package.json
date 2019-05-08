@@ -5,7 +5,12 @@
   "main": "src/index.js",
   "unpkg": "dist/dkjs.js",
   "files": [
-    "dist/dkjs.js"
+    "dist/dkjs.js",
+    "src/*",
+    ".babelrc",
+    ".editorconfig",
+    ".gitignore",
+    "webpack.mix.js"
   ],
   "contributors": [
     {
