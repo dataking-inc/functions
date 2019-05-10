@@ -144,8 +144,8 @@ R.pipe(
 
 ## notNilThen(callback: Function, instance: any): any
 
-This function will return the result by the callback (1st parameter) injected the 2nd parameter. But only if the 2nd 
-parameter is not nil (either `undefined` or `null`). If the 2nd parameter is a nil value, itself will be returned (so 
+This function will return the result by the callback (1st parameter) injected the 2nd parameter. But only if the 2nd
+parameter is not nil (either `undefined` or `null`). If the 2nd parameter is a nil value, itself will be returned (so
 `null` return if it's `null`, `undefined` returned if it's `undefined`).
 
 Note that this function is curried.
