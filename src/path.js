@@ -1,7 +1,7 @@
 import {is, path as rPath, pipe, split, when} from "ramda";
 
 /**
- * @since 0.0.4
+ * @since 0.0.5
  * @param path
  * @param object
  * @return value

@@ -1,7 +1,7 @@
 import {curry} from "ramda";
 
 /**
- * @since 0.0.4
+ * @since 0.0.5
  * @param attr
  * @param a
  * @param b
